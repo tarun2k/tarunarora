@@ -1,0 +1,262 @@
+    body {
+        font-family: "Lato", sans-serif;
+      }
+      
+      .sidenav {
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+      
+      .sidenav a {
+        padding: 6px 6px 6px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+
+      .sidenav a:focus{
+        color: orange;
+      }
+
+      @font-face{
+          font-family: 'Welcomefont';
+          src: url('assets/fonts/Monoton-Regular.ttf');
+      }
+
+      @font-face{
+          font-family: 'Parafont';
+          src: url('assets/fonts/Satisfy-Regular.ttf')
+      }
+
+      @font-face{
+        font-family: 'Parafont2';
+        src: url('assets/fonts/patrick/PatrickHand-Regular.ttf')
+    }
+
+      .welcome{
+        font-size: 2cm;  
+        font-family: 'Welcomefont';
+        color: rgb(247, 204, 12);
+        margin-left: 300px;
+        margin-right: 200px;
+        text-shadow: 4px 4px red;
+      }
+
+      .tab{
+        font-size: 2cm;  
+        font-family: 'Welcomefont';
+        color: rgb(247, 204, 12);
+        margin-left: 400px;
+        text-shadow: 4px 4px red;
+      }
+
+
+      .neon {
+        padding: 40px;
+        font-size: 75px;
+        font-family: 'Monoton', cursive;
+        text-transform: uppercase;
+        text-shadow: 0 0 80px rgb(255, 94, 0),0 0 30px FireBrick,0 0 6px DarkRed;
+        color: red;
+        
+      }
+
+      .main {
+        color: aqua;
+        margin-left: 200px; /* Same as the width of the sidenav */
+        font-family: 'Courier New', Courier, monospace;
+      }
+      .text{
+        color: #f1f1f1;
+        margin-left: 100px; /* Same as the width of the sidenav */
+        margin-right: 100px;
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+      .SectionHeader{
+          font-family: "Parafont";
+          color: rgba(0, 195, 255, 0.932);
+          margin-left: 500px;
+          margin-right: 100 px;
+          font-size: 1cm;
+      }
+
+      .SectionHeader2{
+        font-family: "Parafont";
+        color: rgba(0, 195, 255, 0.932);
+        margin-left: 400px;
+        margin-right: 100 px;
+        font-size: 1cm;
+    }
+
+
+      .headshadow{
+        text-shadow: 4px 4px darkblue;
+      }
+
+      .subheading{
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: -400px;
+        margin-right: 100px; 
+        color:rgb(254, 174, 199);
+        font-size: 0.65cm;  
+      }
+
+      .subheading2{
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: 0px;
+        margin-right: 50px; 
+        color:rgb(254, 174, 199);
+        font-size: 0.65cm;  
+        
+      }
+
+      .subheading3{
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: 0px;
+        margin-right: 50px; 
+        color: cyan;
+        font-size: 0.65cm; 
+         
+      }
+
+      .subsub{
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: -350px;
+        margin-right: 100px; 
+        color: rgb(24, 247, 69);
+        font-size: 0.65cm;  
+      }
+
+      .paracontent{
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: -350px;
+        margin-right: 100px; 
+        color: white;
+        font-size: 0.65cm;
+      }
+
+      .contactcontent{
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: -250px;
+        margin-right: 100px; 
+        color: white;
+        font-size: 0.65cm;
+      }
+
+      .projectimg{
+        display: block;
+        margin-left: -150px;
+        margin-right: 100px;
+        width: 120px;
+      }
+
+      .contactlink{
+        font-family: 'Courier New', Courier, monospace;
+        
+        margin-right: 100px; 
+        color: white;
+        font-size: 0.65cm;
+      }
+
+      .interncontent{
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: -400px;
+        margin-right: 100px; 
+        color: white;
+        font-size: 0.65cm;
+      }
+
+      .circimg {
+        border-radius: 50%;
+        border: 5px solid #555;
+        float : right;
+        margin-right: 200 px;
+        }
+
+      .noround{
+        float : right;
+        margin-right: 200 px;
+      }
+
+
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 50%;
+        border: 5px solid #555;
+       }
+
+       .text-slider-items {
+            display: None;
+            color: #f1f1f1; 
+        }    
+
+        .text-slider{
+            color: rgb(46, 255, 46);
+            font-family: 'Courier New', Courier, monospace;
+            display: block;
+            margin-left: 200px;
+            width: 50%;
+        }
+
+        
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+      
+    @import "susy";
+    @import "compass/reset";
+
+    .stars, .twinkling, .clouds {
+	    position:fixed;
+        overflow-y: auto;
+	    top:0; bottom:0;
+	    left:200; right:0;
+	    width:85%; height:100%;
+    }
+
+    .stars {
+        z-index: 0;
+        background: #000 url('https://image.ibb.co/mjnygo/stars.png') repeat top center;
+    }
+
+    .twinkling{
+        z-index: 1;
+        background:transparent url('https://image.ibb.co/ir1DE8/twinkling.png') repeat top center;
+        animation: move-twink-back 200s linear infinite;
+    }
+
+    .clouds{
+        z-index: 2;
+        background:transparent url('https://image.ibb.co/bT4N7T/clouds.png') repeat top center;
+        animation: move-clouds-back 200s linear infinite;
+    }
+
+    @keyframes move-twink-back {
+        from {background-position:0 0;}
+        to {background-position:-10000px 5000px;}
+    }
+
+    @keyframes move-clouds-back {
+        from {background-position:0 0;}
+        to {background-position:10000px 0;}
+    }
+    
+    

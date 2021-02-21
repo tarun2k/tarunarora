@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content = "width = device-width, initial-scale = 1.0">
+    <title>Tarun Arora Portfolio Website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/cac3f2f931.js" crossorigin="anonymous"></script>
+    <script src='main.js'></script>
+    
+      
+</head>
+<body>
+    <div class="sidenav">
+        <img src = "assets/test.jpeg" alt="avatar" height="100" width="100" class = "center">
+        <br>
+        <a href="#about" class="waves-effect waves-dark teal-text"> <i class="fa fa-fw fa-home"></i> About</a>
+        <a href="#education"> <i class='fas fa-graduation-cap'></i> Education</a>
+        <a href="#experience"> <i class="fas fa-briefcase"></i> Experience</a>
+        <a href="#project"> <i class="fas fa-bookmark"></i> Projects</a>
+        <a href="#extra"> <i class="fas fa-plus-square"></i> Extra Curriculars</a>
+        <a href="#contact"> <i class="fas fa-id-card"></i> Contact</a>
+    </div>
+    
+    <div class='stars'></div>
+    <div class='twinkling'>
+    <div class = 'neon'>
+    <section id= "intro">
+        <div class = 'welcome'>
+            WELCOME
+        </div>
+        
+        <div class='tab'>TO &nbsp; MY</div>   
+
+        <div class = 'welcome'>PORTFOLIO</div>
+    </div>
+        
+        <div class = "main">        
+            <h1> Hi, I'm Tarun Arora </h1>     
+        </div>
+        <h3>
+        <span class="text-slider-items"> 
+            Python Programmer, 
+            Machine Learning Enthusiast, Team Player 
+        </span> 
+
+        <strong class="text-slider"></strong> 
+        </h3>
+
+        <script src= 
+        "typed.js-master/lib/typed.min.js"> 
+    </script> 
+      
+    <!-- Add jquery cdn -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> 
+        </script> 
+    
+        <!-- Add this script for successful  
+            implementation of typed.js  -->
+        <script> 
+            if ($(".text-slider").length == 1) { 
+                
+                var typed_strings =  
+                    $(".text-slider-items").text(); 
+    
+                var typed = new Typed(".text-slider", { 
+                    strings: typed_strings.split(", "), 
+                    typeSpeed: 50, 
+                    loop: true, 
+                    backDelay: 900, 
+                    backSpeed: 30, 
+                }); 
+            } 
+        </script> 
+
+        <div class = 'text'>
+            <h2> Self-driven, quick starter, passionate programmer with a curious mind who loves solving a very complex, very challenging real-world problems. </h2>
+        </div>
+        </section>
+
+        <section id = "about" class = 'SectionHeader'>
+            <h1 class="headshadow"> About Me </h1>
+
+            <h2 class = 'paracontent'>
+                I am a Junior at Delhi Technological University (formerly Delhi College of Engineering) and pursuing my bachelors in Engineering Physics with Major in Electronics. I have a keen interest in Machine Learning and Data Analytics.
+            </h2>
+        </section>
+
+        <section id = "education" class = 'SectionHeader'>
+            <h1 class='headshadow'> Education </h1>
+            <a href="http://dtu.ac.in/"><img src = "assets/DTU,_Delhi_official_logo.png"  alt="dtu_logo" width="20%" height="20%" class="circimg"></a>
+            <h1 class = 'subheading'> Bachelor of Technology in Engineering Physics with Major in Electronics (2018-2022) </h1>
+            <h2 class = 'paracontent'>
+                <h2 class='subsub'>Cumulative Grade Point Average (CGPA) :</h2> <h2 class='paracontent'> 9.23/10</h2> 
+                <h2 class='subsub'>Subject Areas:</h2>
+                <h2 class="paracontent">
+                <ul>
+                    <li>Digital Electronics</li>
+                    <li>Microprocessors and Interfacing</li>
+                    <li>Internet of Things</li>
+                    <li>Machine Learning</li>
+                    <li>Operating Systems</li>
+                    <li>Computer Networks</li>
+                    <li>Cyber Forensics</li>                    
+                </ul>
+            </h2>
+            </h2>
+        </section>
+
+        <section id = "experience" class = 'SectionHeader'>
+            <h1 class='headshadow'> Experience </h1>
+            
+            <a href="https://nciipc.gov.in/"><img src = "assets/nciipclogo.png"  alt="nc_logo" width="20%" height="20%" class="circimg" ></a>
+            <h1 class = 'subheading'> Summer Intern <br> National Critical Information Infrastructure Protection Center, NCIIPC <br> Government of India, New Delhi, India<br> Summer of 2020 </h1>
+            <h2 class="interncontent">
+                Created a batch application using Python to provision and administer open and closed ports of a website and perform banner grabbing. In this project, I used <i>Tkinter</i> as as Graphical User Inteface (GUI) 
+            </h2>
+
+            <a href="http://www.airindia.in/"><img src = "assets/Air_India_logo.png"  alt="ai_logo" width="40%" height="40%" class="noround" ></a>
+            <h1 class = 'subheading'> Summer Intern <br> Air India, New Delhi, India <br> Summer of 2019 </h1>
+            <h2 class="interncontent">
+                Worked in a team of 4 interns where we enhanced the Employee Benefit's Portal using Django, HTML and CSS. 
+            </h2>
+        </section> 
+        
+        <section id = "project" class = 'SectionHeader'>
+            <h1 class='headshadow'> Projects </h1>
+            <h2 class='subheading'>1. Real-time face detection and applying filters </h2>
+            <div class="projectimg">
+                <img src="assets/hat.JPG">
+            </div>
+            <h2 class='paracontent'>A machine learning project to detect human faces in real-time images and track the movement of the fist to apply various filters on the face (namely: hat, sunglasses, and mustache)
+            <br>
+                <i class="fab fa-github fa-2x"></i><a href="https://github.com/tarun2k/Real-time-facefilters" class="contactlink">
+                    github.com/tarun2k/Real-time-facefilters
+                </a>
+            </h2>
+        </section>
+
+        <section id = "extra" class = 'SectionHeader2'>
+            <h1 class='headshadow'> Extracurriculars</h1>
+
+            <h2 class="paracontent">
+                <ul>
+                    <li class="subheading2">Technology Head at Entrepreneurship Cell Delhi Technological University</li>
+                    <li class="subheading3">Runner Up at HackBattle 2020, IEEE VIT</li>
+                    <li class="subheading2">Winner at Startup Weekend 2018 powered by Google for Startups</li>
+                    <li class="subheading3">Member of organising committee for DelTech Model United Nations Conference at Delhi Technological
+                        University</li>
+                                        
+                </ul>
+            </h2>
+                
+        </section>
+        
+        <section id = "contact" class = 'SectionHeader2'>
+            <h1 class='headshadow'> Contact Information</h1>
+            <h2 class="contactcontent">
+                <i class="fas fa-phone-square-alt fa-2x"></i>
+                +91-8800239016
+                <br>
+                <br>
+                <i class="fas fa-envelope fa-2x" ></i>
+                tarun.arora@mail.com
+                <br>
+                <br>
+                <i class="fab fa-github fa-2x"></i><a href="https://github.com/tarun2k" class="contactlink">
+                github.com/tarun2k
+                </a>
+                <br>
+                <br>
+                <i class="fab fa-linkedin fa-2x"></i>
+                <a href="https://www.linkedin.com/in/tarun-arora-dtu/" class="contactlink">linkedin.com/in/tarun-arora-dtu/
+                </a>
+            </h2>
+
+        </section>
+    
+    </div>
+    
+</body>
+</html>
